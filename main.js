@@ -42,7 +42,7 @@ function check()
 }
 function gotResult(error, results) {
     if (error) {
-        console.error(error);
+        console.log(error);
     } else {
         console.log(results);
         document.getElementById("result_emotion_name").innerHTML = results[0].label;
